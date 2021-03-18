@@ -11,7 +11,7 @@ phases:
       - python test_app.py
   post_build:
     commands:
-      - echo Build completing on `date`
+      - echo Build complete on `date`
 artifacts:
   files:
     - web.py
